@@ -9,7 +9,7 @@ public class GameException {
         gameManager();
     }
 
-    public void gameManager() {
+    private void gameManager() {
         // catch에 return input 넣기
     }
 
