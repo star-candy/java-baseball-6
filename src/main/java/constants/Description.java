@@ -6,6 +6,7 @@ public enum Description {
     BALL_STRIKE_COUNT("%d볼 %d스트라이크\n"),
     STRIKE_COUNT("%d스트라이크\n"),
     BALL_COUNT("%d볼\n"),
+    NOT_COUNT("낫싱"),
     GAME_END("3개의 숫자를 모두 맞히셨습니다! 게임 종료"),
     RESTART_COUNT("게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요."),
     LONG_INPUT("[ERROR] 3자리 숫자가 입력되어야 합니다"),
