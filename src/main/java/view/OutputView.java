@@ -24,4 +24,7 @@ public class OutputView {
         }
     }
 
+    public void gameEnd() {
+        System.out.printf(Description.GAME_END.getMessage());
+    }
 }

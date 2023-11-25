@@ -5,12 +5,12 @@
 - outputView class
 - [0] 게임 시작 문구를 출력하는 기능 - gamestart
 - [0] 입력값에 따른 볼, 스트라이크 카운터를 출력하는 기능 gameresult
-- [ ] 게임 종료 문구 및 재시작 여부 출력하는 기능 - restartorend
+- [0] 게임 종료 문구 출력하는 기능 - gameEnd
 
 - inputView class
     - 입력 형식 오류에 대한 exception은 해당 class에서 처리
 - [ ] 숫자 입력 요구문 출력, 입력값 저장 - ballNumber
-- [ ] 게임 재시작 여부에 대한 입력값 저장 - restartorend
+- [ ] 게임 재시작 요구문 출력, 입력값 저장 - restartorend
 
 ### controller package 프로젝트 진행
 
