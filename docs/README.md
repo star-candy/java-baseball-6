@@ -3,7 +3,7 @@
 ### view package
 
 - outputView class
-- [ ] 게임 시작 문구를 출력하는 기능 - gamestart
+- [0] 게임 시작 문구를 출력하는 기능 - gamestart
 - [ ] 입력값에 따른 볼, 스트라이크 카운터를 출력하는 기능 gameresult
 - [ ] 게임 종료 문구 및 재시작 여부 출력하는 기능 - restartorend
 
@@ -23,7 +23,7 @@
 
 ### constatns package
 
-- [ ] string 상수 Enum으로 관리 - Description class
+- [0] string 상수 Enum으로 관리 - Description class
 
 ### exception packagae
 
