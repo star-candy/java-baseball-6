@@ -18,7 +18,8 @@
 
 ### model package
 
-- [ ] 숫자 입력과 정답을 비교해 strike, ball 판단하기 - validategameresult
+- [ ] int형 숫자를 list로 변환하기 inttolist
+- [0] 숫자 입력과 정답을 비교해 strike, ball 판단하기 - validategameresult
 - [ ] 숫자게임의 정답 3자리 수를 제작하기 createanswer (중복 숫자 발생 시 내부에서 변경하기)
 
 ### constatns package
