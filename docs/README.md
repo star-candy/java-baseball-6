@@ -10,7 +10,7 @@
 - inputView class
     - 입력 형식 오류에 대한 exception은 해당 class에서 처리
 - [0] 숫자 입력 요구문 출력, 입력값 return - ballNumber
-- [ ] 게임 재시작 요구문 출력, 입력값 return - restartorend
+- [0] 게임 재시작 요구문 출력, 입력값 return - restartorend
 
 ### controller package 프로젝트 진행
 
