@@ -6,7 +6,7 @@ import java.util.List;
 public class OutputView {
 
     public void gameStart() {
-        System.out.printf(Description.GAME_START.getMessage());
+        System.out.println(Description.GAME_START.getMessage());
     }
 
     public void gameResult(List<Integer> gameCount) {
@@ -16,15 +16,15 @@ public class OutputView {
         if (gameCount.get(0) == 0 && gameCount.get(1) != 0) {
             System.out.printf(Description.BALL_COUNT.getMessage(), gameCount.get(1));
         }
+        if (gameCount.get(0) != 0 && gameCount.get(0) <= 3) {
+            System.out.printf(Description.STRIKE_COUNT.getMessage(), gameCount.get(0));
+        }
         if (gameCount.get(0) != 0 && gameCount.get(1) != 0) {
             System.out.printf(Description.BALL_STRIKE_COUNT.getMessage(), gameCount.get(0), gameCount.get(1));
-        }
-        if (gameCount.get(0) != 0 && gameCount.get(0) < 3) {
-            System.out.printf(Description.STRIKE_COUNT.getMessage(), gameCount.get(0));
         }
     }
 
     public void gameEnd() {
-        System.out.printf(Description.GAME_END.getMessage());
+        System.out.println(Description.GAME_END.getMessage());
     }
 }

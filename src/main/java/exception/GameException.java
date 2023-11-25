@@ -10,7 +10,9 @@ public class GameException {
     }
 
     private void gameManager() {
-        // catch에 return input 넣기
+        longInput();
+        sameInput();
+        improperInput();
     }
 
     private void longInput() {

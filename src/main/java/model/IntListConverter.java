@@ -7,10 +7,10 @@ public class IntListConverter {
 
     public List<Integer> intToList(int inputNumber) {
         List<Integer> numberList = new ArrayList<>();
-        while (inputNumber > 0) {
-            numberList.add(inputNumber % 10);
-            inputNumber /= 10;
-        }
+
+        numberList.add(inputNumber / 100);          // 첫 번째 자리
+        numberList.add((inputNumber % 100) / 10);   // 두 번째 자리
+        numberList.add(inputNumber % 10);           // 세 번째 자리
         return numberList;
     }
 }
