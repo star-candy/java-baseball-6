@@ -14,7 +14,7 @@
 
 ### controller package 프로젝트 진행
 
-- [ ] Controller class - 게임 진행 baseballmanager
+- [0] Controller class - 게임 진행 baseballmanager
 
 ### model package
 

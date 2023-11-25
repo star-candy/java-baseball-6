@@ -13,7 +13,7 @@ public class ValidateGameResult {
         this.answerNumber = answerNumber;
     }
 
-    public List<Integer> validateGameResult() {
+    public List<Integer> validateResult() {
         int strike = 0, ball = 0;
         for (int i = 0; i < answerNumber.size(); i++) {
             if (answerNumber.get(i).equals(inputNumber.get(i))) {
